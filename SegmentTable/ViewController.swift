@@ -23,6 +23,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.addSubview(myView)
+        print("git practise")
+        
         _ = [NSAttributedString.Key.foregroundColor: UIColor.systemPink]
         
 UISegmentedControl.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.systemPink], for: .selected)
