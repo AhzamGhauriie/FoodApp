@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.view.addSubview(myView)
         print("git practise")
-        
+        print("git from musharraf")
         _ = [NSAttributedString.Key.foregroundColor: UIColor.systemPink]
         
 UISegmentedControl.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.systemPink], for: .selected)
