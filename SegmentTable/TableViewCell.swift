@@ -14,6 +14,7 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var citylbl: UILabel!
     @IBOutlet weak var ratinglbl: UILabel!
     @IBOutlet weak var rupeeslbl: UILabel!
+    @IBOutlet weak var newlbl: UILabel!
     
     var burModel:BurgerModel!{
         didSet{
@@ -22,6 +23,7 @@ class TableViewCell: UITableViewCell {
             img.image = burModel.image
             ratinglbl.text = burModel.rating
             rupeeslbl.text = burModel.rupees
+            
             
         }
     }

@@ -15,6 +15,7 @@ struct BurgerModel {
     let image:UIImage?
     let rating:String?
     let rupees:String?
+    
 }
 
 struct PizzaModel {

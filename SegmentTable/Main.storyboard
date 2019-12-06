@@ -33,7 +33,7 @@
                                 <segment title="BURGER"/>
                                 <segment title="PIZZA"/>
                                 <segment title="SANDWICH"/>
-                                <segment title="FRIES"/>
+                                <segment title="DEALS"/>
                             </segments>
                             <color key="selectedSegmentTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -77,14 +77,22 @@
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="176" id="xfi-p7-ym4"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="12"/>
+                                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
                                                 <color key="textColor" red="0.99022096400000004" green="0.0" blue="0.41786807970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIa-DK-r8s">
-                                                <rect key="frame" x="289" y="51.5" width="64" height="23"/>
+                                                <rect key="frame" x="289" y="52" width="64" height="22"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                                 <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvx-j2-bVj">
+                                                <rect key="frame" x="0.0" y="5" width="44" height="15"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.99022096400000004" green="0.0" blue="0.41786807970000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -116,6 +124,7 @@
                                     <connections>
                                         <outlet property="citylbl" destination="0wk-k9-e6E" id="dat-JK-uVR"/>
                                         <outlet property="img" destination="vLN-w6-Sy7" id="ia4-6y-D8j"/>
+                                        <outlet property="newlbl" destination="Gvx-j2-bVj" id="Sqp-VM-9GP"/>
                                         <outlet property="ratinglbl" destination="Et1-5J-nyg" id="ycG-M3-d40"/>
                                         <outlet property="rupeeslbl" destination="IIa-DK-r8s" id="NGG-lV-kGg"/>
                                         <outlet property="titlelbl" destination="Ls6-zL-mXS" id="sq0-RN-YNc"/>
