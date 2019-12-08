@@ -23,7 +23,7 @@ class TableViewCell: UITableViewCell {
             img.image = burModel.image
             ratinglbl.text = burModel.rating
             rupeeslbl.text = burModel.rupees
-            
+        
             
         }
     }

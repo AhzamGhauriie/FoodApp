@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D4B622D2398FCC8001CD42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4B622C2398FCC8001CD42A /* Main.storyboard */; };
+		4DD97C97239CC515001DB4B2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD97C96239CC515001DB4B2 /* DetailViewController.swift */; };
 		4DE7FE46239798290036B1A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7FE45239798290036B1A0 /* AppDelegate.swift */; };
 		4DE7FE48239798290036B1A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7FE47239798290036B1A0 /* SceneDelegate.swift */; };
 		4DE7FE4A239798290036B1A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE7FE49239798290036B1A0 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		4D4B622C2398FCC8001CD42A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4DD97C96239CC515001DB4B2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		4DE7FE42239798290036B1A0 /* SegmentTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE7FE45239798290036B1A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DE7FE47239798290036B1A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,11 +109,12 @@
 			children = (
 				4DE7FE45239798290036B1A0 /* AppDelegate.swift */,
 				4DE7FE47239798290036B1A0 /* SceneDelegate.swift */,
+				4D4B622C2398FCC8001CD42A /* Main.storyboard */,
 				4DE7FE49239798290036B1A0 /* ViewController.swift */,
+				4DD97C96239CC515001DB4B2 /* DetailViewController.swift */,
+				4DE7FE7A23979FB60036B1A0 /* TableViewCell.swift */,
 				4DE7FE7823979F750036B1A0 /* DataModel.swift */,
 				4DE7FE532397982A0036B1A0 /* LaunchScreen.storyboard */,
-				4D4B622C2398FCC8001CD42A /* Main.storyboard */,
-				4DE7FE7A23979FB60036B1A0 /* TableViewCell.swift */,
 				4DE7FE512397982A0036B1A0 /* Assets.xcassets */,
 				4DE7FE562397982A0036B1A0 /* Info.plist */,
 				4DE7FE4E239798290036B1A0 /* SegmentTable.xcdatamodeld */,
@@ -274,6 +277,7 @@
 				4DE7FE7B23979FB60036B1A0 /* TableViewCell.swift in Sources */,
 				4DE7FE46239798290036B1A0 /* AppDelegate.swift in Sources */,
 				4DE7FE48239798290036B1A0 /* SceneDelegate.swift in Sources */,
+				4DD97C97239CC515001DB4B2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
