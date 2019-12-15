@@ -21,43 +21,43 @@ class DetailViewController: UIViewController {
     var friData : FriesModel?
     
     @IBAction func backbtn(_ sender: UIButton) {
-         self.navigationController?.popToRootViewController(animated: true)
+        self.navigationController?.popToRootViewController(animated: true)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         if burData?.dot == "."{
             lblimg.image = burData?.image
-           lblname.text = burData?.title
+            lblname.text = burData?.title
             lblrecipe.text = burData?.city
             lblrating.text = burData?.rating
             lblrupees.text = burData?.rupees
-
+            
         }
             
         else if pizData?.dot == "."{
-                                  lblimg.image = pizData?.image
-                                 lblname.text = pizData?.title
-                                  lblrecipe.text = pizData?.city
-                                  lblrating.text = pizData?.rating
-                                  lblrupees.text = pizData?.rupees
-                              }
+            lblimg.image = pizData?.image
+            lblname.text = pizData?.title
+            lblrecipe.text = pizData?.city
+            lblrating.text = pizData?.rating
+            lblrupees.text = pizData?.rupees
+        }
         else if sandData?.dot == "."{
-                   lblimg.image = sandData?.image
-                  lblname.text = sandData?.title
-                   lblrecipe.text = sandData?.city
-                   lblrating.text = sandData?.rating
-                   lblrupees.text = sandData?.rupees
-               }
-    
-      else if friData?.dot == "."{
-                     lblimg.image = friData?.image
-                    lblname.text = friData?.title
-                     lblrecipe.text = friData?.city
-                     lblrating.text = friData?.rating
-                     lblrupees.text = friData?.rupees
-                 }
+            lblimg.image = sandData?.image
+            lblname.text = sandData?.title
+            lblrecipe.text = sandData?.city
+            lblrating.text = sandData?.rating
+            lblrupees.text = sandData?.rupees
+        }
             
+        else if friData?.dot == "."{
+            lblimg.image = friData?.image
+            lblname.text = friData?.title
+            lblrecipe.text = friData?.city
+            lblrating.text = friData?.rating
+            lblrupees.text = friData?.rupees
+        }
+        
     }
     
 }

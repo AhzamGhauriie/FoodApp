@@ -23,23 +23,23 @@ struct PizzaModel {
     let title:String?
     let city:String?
     let image:UIImage?
-     let rating:String?
-     let rupees:String?
-   let dot:String?
+    let rating:String?
+    let rupees:String?
+    let dot:String?
 }
 struct SandwichModel {
     let title:String?
     let city:String?
     let image:UIImage?
-     let rating:String?
-     let rupees:String?
-       let dot:String?
+    let rating:String?
+    let rupees:String?
+    let dot:String?
 }
 struct FriesModel {
     let title:String?
     let city:String?
     let image:UIImage?
-     let rating:String?
+    let rating:String?
     let rupees:String?
     let dot:String?
 }
